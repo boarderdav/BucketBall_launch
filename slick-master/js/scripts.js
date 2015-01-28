@@ -2,13 +2,13 @@ $(document).ready(function() {
     
 	//button animation
 	$('.button').on('mouseenter', function(){
-		$(this).animate({'top': '-10px', 'opacity': '1'}, 'fast');
-		$(this).css({'background-color': '#51988C'}, 'slow');
+		$(this).animate({'top': '-10px', 'opacity': '0.7'}, 'fast');
+		//$(this).css({'background-color': '#51988C'}, 'slow');
 	});
 	
 	$('.button').on('mouseleave', function(){
 		$(this).animate({'top': '0px', 'opacity': '1'}, 'fast');
-		$(this).css({'background-color': '#009F84'}, 'slow');
+		//$(this).css({'background-color': '#009F84'}, 'slow');
 	});
 	
 	$('.button').on('click', function(event){

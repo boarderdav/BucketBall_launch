@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import url("../webfonts/Oswald/stylesheet.css");
+@import url("../webfonts/Oswald_Bold/stylesheet.css");
+
+
+.right.button-group li .button {
+	background-color: #FD4F52;
+}
+.row .large-4.columns h4 {
+	font-family: "Oswald Bold";
+}
+.row .large-4.columns p {
+	font-family: lato;
+	font-style: normal;
+	font-weight: 300;
+}
+.title-area .name h1 {
+	font-family: changa-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+}

@@ -2710,7 +2710,7 @@ dl {
   font-family: inherit; }
 
 ul {
-  margin-left: 1.1rem; }
+  margin-left: 0; } /*changed from 1.1rem*/
   ul.no-bullet {
     margin-left: 0; }
     ul.no-bullet li ul,

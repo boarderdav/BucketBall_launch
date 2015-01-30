@@ -88,8 +88,9 @@ img {
   -moz-osx-font-smoothing: grayscale; }
 
 img {
-  display: inline-block;
-  vertical-align: middle; }
+	display: inline-block;
+	vertical-align: middle;
+}
 
 textarea {
   height: auto;
@@ -2596,9 +2597,7 @@ p,
 blockquote,
 th,
 td {
-	margin: 0;
 	padding: 0;
-	max-height: 800px;
 }
 
 /* Default Link Styles */

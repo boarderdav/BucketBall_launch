@@ -2596,8 +2596,10 @@ p,
 blockquote,
 th,
 td {
-  margin: 0;
-  padding: 0; }
+	margin: 0;
+	padding: 0;
+	max-height: 800px;
+}
 
 /* Default Link Styles */
 a {

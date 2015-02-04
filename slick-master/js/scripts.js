@@ -66,7 +66,12 @@ $(document).ready(function() {
 	$('#twitter').on('mouseleave', function(){
 		$(this).animate({'opacity': '1'}, 'fast');
 	});	
-	
+	$('#kickstarter').on('mouseenter', function(){
+		$(this).animate({'opacity': '0.7'}, 'fast');
+	});
+	$('#kickstarter').on('mouseleave', function(){
+		$(this).animate({'opacity': '1'}, 'fast');
+	});	
 	
 	
 	$('.single-item').slick({

@@ -47,6 +47,28 @@ $(document).ready(function() {
 		$(this).animate({'top': '0px', 'opacity': '1'}, 'fast');
 	});
 	
+	//social icon animation
+	$('#facebook').on('mouseenter', function(){
+		$(this).animate({'opacity': '0.7'}, 'fast');
+	});
+	$('#facebook').on('mouseleave', function(){
+		$(this).animate({'opacity': '1'}, 'fast');
+	});
+	$('#google').on('mouseenter', function(){
+		$(this).animate({'opacity': '0.7'}, 'fast');
+	});
+	$('#google').on('mouseleave', function(){
+		$(this).animate({'opacity': '1'}, 'fast');
+	});
+	$('#twitter').on('mouseenter', function(){
+		$(this).animate({'opacity': '0.7'}, 'fast');
+	});
+	$('#twitter').on('mouseleave', function(){
+		$(this).animate({'opacity': '1'}, 'fast');
+	});	
+	
+	
+	
 	$('.single-item').slick({
         dots: true,
         infinite: true,

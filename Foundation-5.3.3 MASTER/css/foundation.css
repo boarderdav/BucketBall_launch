@@ -1531,8 +1531,9 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
-    overflow: visible; }
+	background-color: #333333;
+	overflow: visible;
+}
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }
@@ -1543,7 +1544,9 @@ meta.foundation-mq-topbar {
     .top-bar .title-area {
       float: left; }
     .top-bar .name h1 a {
-      width: auto; }
+	width: auto;
+	color: rgba(128,128,128,1.00);
+}
     .top-bar input,
     .top-bar .button,
     .top-bar button {
@@ -1578,8 +1581,8 @@ meta.foundation-mq-topbar {
       line-height: 45px;
       background: #333333; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background-color: #555555;
-        background: #272727; }
+	background-color: #272727;
+}
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
@@ -1684,7 +1687,9 @@ meta.foundation-mq-topbar {
     width: auto;
     overflow: visible;
     clip: auto;
-    position: absolute !important; } }
+    position: absolute !important; } .name h1 a {
+}
+}
 .breadcrumbs {
   display: block;
   padding: 0.5625rem 0.875rem 0.5625rem;

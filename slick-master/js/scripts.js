@@ -47,8 +47,6 @@ $(document).ready(function() {
 		$(this).animate({'top': '0px', 'opacity': '1'}, 'fast');
 	});
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
 	//social icon animation
 	$('#facebook').on('mouseenter', function(){
 		$(this).animate({'opacity': '0.7'}, 'fast');
@@ -76,6 +74,8 @@ $(document).ready(function() {
 	});	
 	
 	
+=======
+>>>>>>> parent of 6688e1f... Addded Social Media Icons
 =======
 >>>>>>> parent of 6688e1f... Addded Social Media Icons
 =======

@@ -1543,17 +1543,13 @@ meta.foundation-mq-topbar {
     .top-bar .title-area {
       float: left; }
     .top-bar .name h1 a {
-<<<<<<< HEAD
-<<<<<<< HEAD
+  
 	width: auto;
 	color: rgba(194,194,194,1.00);
 }
 =======
       width: auto; }
->>>>>>> parent of 6688e1f... Addded Social Media Icons
-=======
-      width: auto; }
->>>>>>> parent of 6688e1f... Addded Social Media Icons
+
     .top-bar input,
     .top-bar .button,
     .top-bar button {

@@ -73,19 +73,15 @@ $(document).ready(function() {
 		$(this).animate({'opacity': '1'}, 'fast');
 	});	
 	
-	
-=======
->>>>>>> parent of 6688e1f... Addded Social Media Icons
-=======
->>>>>>> parent of 6688e1f... Addded Social Media Icons
-=======
->>>>>>> parent of 6688e1f... Addded Social Media Icons
+		
 	$('.single-item').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+		autoplay: false,
+        autoplaySpeed: 3000
     });
     $('.multiple-items').slick({
         dots: true,
@@ -173,7 +169,7 @@ $(document).ready(function() {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000
     });
 
